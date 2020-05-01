@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace BinarySearchTree
 {
-    public class Node<T> where T : IComparable
+    public class Node<T>
     {
         // Member variables
-        T data;
+        public T data;
 
-        Node<T> leftChild;
-        Node<T> rightChild;
+        public Node<T> leftChild;
+        public Node<T> rightChild;
     }
 }
